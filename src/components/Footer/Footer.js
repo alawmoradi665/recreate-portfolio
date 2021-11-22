@@ -10,18 +10,18 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:alaw.moradi@outlook.com">alaw.moradi@outlook.com</LinkItem>
+          <LinkItem href="mailto:alaw.moradi@outlook.com" target="_blank" rel="noreferrer noopener">alaw.moradi@outlook.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Somethin Cheezy</Slogan>
+          <Slogan>Find out more over there <span>&#10233;</span></Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/alawmoradi665">
+          <SocialIcons href="https://github.com/alawmoradi665" target="_blank" rel="noreferrer noopener">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/alawmoradi/">
+          <SocialIcons href="https://www.linkedin.com/in/alawmoradi/" target="_blank" rel="noreferrer noopener">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

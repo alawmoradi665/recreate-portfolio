@@ -27,12 +27,14 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Visit Site</ExternalLinks>
-            <ExternalLinks href={source}>Code</ExternalLinks>
+            <ExternalLinks href={visit} target="_blank" rel="noreferrer noopener">Visit Site</ExternalLinks>
+            <ExternalLinks href={source} target="_blank" rel="noreferrer noopener">Code</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
+    <br />
+    <SectionDivider />
   </Section>
 );
 

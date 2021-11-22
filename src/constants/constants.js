@@ -10,9 +10,9 @@ export const projects = [
   },
   {
     title: 'My Portfolio',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    description: "Using React.js to put the components together for this portfolio, adding my own styling and details to the starter code that was put in place.",
       image: '/images/3.png',
-      tags: ['React', 'WebRTC'],
+      tags: ['React.js', 'JavaScript', 'CSS'],
     source: 'https://github.com/alawmoradi665/recreate-portfolio',
     visit: 'https://alawmoradi.com',
     id: 2,
@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Finished Bachelor of Arts in Gothenburg, Sweden - Primary School Educator', },
+  { year: 2019, text: 'Travelled Australia', },
+  { year: 2020, text: 'Retail Store Manager @Octopus Retail P/L', },
+  { year: 2021, text: 'Started coding journey at Coder Academy, Sydney', },
+  { year: 2022, text: 'Finishing Diploma of IT', },
 ];

@@ -4,6 +4,8 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+// import resume from '../../../public/resume.pdf';
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
@@ -14,7 +16,9 @@ const Hero = () => (
       <SectionText>
         Current career changer with an endless drive for learning and solving. With a background in diverse roles and environments the keys to success has been my ability to analyse, adapt and engage. 
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <a href='resume.pdf' download='resume.pdf'>
+        <Button>Resume</Button>
+      </a>
     </LeftSection>
   </Section>
 );
