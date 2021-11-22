@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>During my time at the Coder Academy bootcamp, I have had the possibility to learn and work with a full tech stack, covering front-end to back-end whilst also working with databases such as PostgreSQL.</SectionText>
+    <SectionText>In my current studies at Coder Academy I am learning front-end and back-end programming, whilst also working with databases such as PostgreSQL.</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Expanding Slides',
-    description: "Using JavaScript and CSS to create the expanding slides as a fun mini project. Images are taken by me as a sequence of five morning skies.",
+    description: "Digital photo album with expanding slides, built with JavaScript and CSS. This album contains a sequence of five sunrises in a week.",
       image: '/images/1.png',
       tags: ['HTML', 'CSS', 'JavaScript', 'Github'],
     source: 'https://github.com/alawmoradi665/javascript-sliding-images',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'My Portfolio',
-    description: "Using React.js to put the components together for this portfolio, adding my own styling and details to the starter code that was put in place.",
+    description: "The latest update of my portfolio was built with ReactJS, using a portfolio starter template and customizing components and styling.",
       image: '/images/3.png',
       tags: ['React.js', 'JavaScript', 'CSS'],
     source: 'https://github.com/alawmoradi665/recreate-portfolio',
@@ -19,22 +19,22 @@ export const projects = [
   },
   {
     title: 'Hydrate Yourself',
-    description:"Following a tutorial using JavaScript and CSS to create the filling cups functions and adding my own twist of the CSS styling.",
+    description:"Side project built with CSS and vanilla JavaScript, go visit the site to measure if you've had enough water today.",
     image: '/images/2.png',
     tags: ['HTML', 'CSS', 'JavaScript', 'Github'],
     source: 'https://github.com/alawmoradi665/drink-water-project',
     visit: 'https://hydrateyourself.netlify.app/',
     id: 1, 
   },
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },
+  {
+    title: 'Vintedge',
+    description: "A two sided marketplace application, for users who source vintage homewares and sell on a currently scattered market - read more in README.",
+    image: '/images/4.png',
+    tags: ['CSS', 'Ruby', 'Rails'],
+    source: 'https://github.com/alawmoradi665/my-mp',
+    visit: 'https://github.com/alawmoradi665/my-mp',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [

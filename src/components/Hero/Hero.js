@@ -14,7 +14,7 @@ const Hero = () => (
         I am Alaw [all · love], nice to meet you!
       </SectionTitle>
       <SectionText>
-        Current career changer with an endless drive for learning and solving. With a background in diverse roles and environments the keys to success has been my ability to analyse, adapt and engage. 
+        Previous Teacher - Current Fullstack developer <br />Driven by problem solving, learning and educating.   
       </SectionText>
       <a href='resume.pdf' download='resume.pdf'>
         <Button>Resume</Button>
